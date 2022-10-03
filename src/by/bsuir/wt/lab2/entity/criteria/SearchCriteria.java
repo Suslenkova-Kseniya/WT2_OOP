@@ -1,31 +1,126 @@
 package by.bsuir.wt.lab2.entity.criteria;
 
 public final class SearchCriteria {
-	
-	public static enum Oven{
-		POWER_CONSUMPTION, WEIGHT, CAPACITY, DEPTH, HEIGHT, WIDTH
+
+	public enum Oven {
+		NAME("name"), PRICE("price"), POWER_CONSUMPTION("powerConsumption"),
+		WEIGHT("weight"), CAPACITY("capacity"), DEPTH("depth"),
+		HEIGHT("height"), WIDTH("width");
+
+		private final String value;
+
+		Oven(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
 	}
-	
-	public static enum Laptop{
-		BATTERY_CAPACITY, OS, MEMORY_ROM, SYSTEM_MEMORY, CPU, DISPLAY_INCHS
+
+	public enum Laptop {
+		NAME("name"), PRICE("price"), BATTERY_CAPACITY("batteryCapacity"),
+		OS("os"), MEMORY_ROM("memoryRom"), SYSTEM_MEMORY("systemMemory"),
+		CPU("cpu"), DISPLAY_INCHES("displayInches");
+
+		private final String value;
+
+		Laptop(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
 	}
-	
-	public static enum Refrigerator{
-		POWER_CONSUMPTION, WEIGHT, FREEZER_CAPACITY, OVERALL_CAPACITY, HEIGHT, WIDTH
+
+	public enum Refrigerator {
+		NAME("name"), PRICE("price"), POWER_CONSUMPTION("powerConsumption"),
+		WEIGHT("weight"), FREEZER_CAPACITY("freezerCapacity"),
+		OVERALL_CAPACITY("overallCapacity"), HEIGHT("height"), WIDTH("width");
+
+		private final String value;
+
+		Refrigerator(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
 	}
-	
-	public static enum VacuumCleaner{
-		POWER_CONSUMPTION, FILTER_TYPE, BAG_TYPE, WAND_TYPE, MOTOR_SPEED_REGULATION, CLEANING_WIDTH
+
+	public enum VacuumCleaner {
+		NAME("name"), PRICE("price"), POWER_CONSUMPTION("powerConsumption"),
+		FILTER_TYPE("filterType"), BAG_TYPE("bagType"), WAND_TYPE("wandType"),
+		MOTOR_SPEED_REGULATION("motorSpeedRegulation"), CLEANING_WIDTH("cleaningWidth");
+
+		private final String value;
+
+		VacuumCleaner(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
 	}
-	
-	public static enum TabletPC{
-		BATTERY_CAPACITY, DISPLAY_INCHES, MEMORY_ROM, FLASH_MEMORY_CAPACITY, COLOR		
+
+	public static enum TabletPC {
+		NAME("name"), PRICE("price"), BATTERY_CAPACITY("batteryCapacity"),
+		DISPLAY_INCHES("displayInches"), MEMORY_ROM("memoryRom"),
+		FLASH_MEMORY_CAPACITY("flashMemoryCapacity"), COLOR("Color");
+
+		private final String value;
+
+		TabletPC(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
 	}
-	
-	public static enum Speakers{
-		POWER_CONSUMPTION, NUMBER_OF_SPEAKERS, FREQUENCY_RANGE, CORD_LENGTH
+
+	public enum Speakers {
+		NAME("name"), PRICE("price"), POWER_CONSUMPTION("powerConsumption"),
+		NUMBER_OF_SPEAKERS("numberOfSpeakers"), FREQUENCY_RANGE_MIN("frequencyRangeMin"),
+		FREQUENCY_RANGE_MAX("frequencyRangeMax"), CORD_LENGTH("cordLength");
+
+		private final String value;
+
+		Speakers(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
 	}
-	
-	private SearchCriteria() {}
+
+	public enum Kettle {
+		NAME("name"), PRICE("price"), POWER_CONSUMPTION("powerConsumption"),
+		WATER_CAPACITY("waterCapacity"), COLOR("color");
+
+		private final String value;
+
+		Kettle(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
+	}
+
+	private SearchCriteria() {
+	}
 }
 
