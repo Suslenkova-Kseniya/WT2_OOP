@@ -8,7 +8,7 @@ import java.util.List;
 public interface ApplianceDAO {
 	List<Appliance> find(Criteria criteria);
 
-	void save(List<Appliance> appliences);
+	void save(List<Appliance> appliances);
 
 	List<Appliance> parseAll();
 }
