@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="17" class="java.beans.XMLDecoder">
- <object class="main.java.by.bsuir.WT.lab2.entity.Kettle">
+ <object class="by.bsuir.wt.lab2.entity.Kettle">
   <void property="color">
    <object class="java.lang.Enum" method="valueOf">
     <class>main.java.by.bsuir.WT.lab2.entity.enums.Color</class>
@@ -20,7 +20,7 @@
    <double>1700.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Kettle">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Kettle">
   <void property="color">
    <object class="java.lang.Enum" id="Color0" method="valueOf">
     <class>main.java.by.bsuir.WT.lab2.entity.enums.Color</class>
@@ -40,7 +40,7 @@
    <double>1700.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Kettle">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Kettle">
   <void property="color">
    <object idref="Color0"/>
   </void>
@@ -57,7 +57,7 @@
    <double>1500.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Oven">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Oven">
   <void property="capacity">
    <int>32</int>
   </void>
@@ -83,7 +83,7 @@
    <double>59.5</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Oven">
+ <object class="by.bsuir.wt.lab2.entity.Oven">
   <void property="capacity">
    <int>33</int>
   </void>
@@ -109,7 +109,7 @@
    <double>68.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Oven">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Oven">
   <void property="capacity">
    <int>33</int>
   </void>
@@ -135,7 +135,7 @@
    <double>70.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Laptop">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Laptop">
   <void property="batteryCapacity">
    <double>1.0</double>
   </void>
@@ -164,7 +164,7 @@
    <int>1000</int>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Laptop">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Laptop">
   <void property="batteryCapacity">
    <double>1.5</double>
   </void>
@@ -193,7 +193,7 @@
    <int>1000</int>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Laptop">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Laptop">
   <void property="batteryCapacity">
    <double>3.0</double>
   </void>
@@ -219,7 +219,7 @@
    <int>1500</int>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Refrigerator">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Refrigerator">
   <void property="freezerCapacity">
    <double>10.0</double>
   </void>
@@ -245,7 +245,7 @@
    <double>70.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Refrigerator">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Refrigerator">
   <void property="freezerCapacity">
    <double>15.0</double>
   </void>
@@ -271,7 +271,7 @@
    <double>80.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Refrigerator">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Refrigerator">
   <void property="freezerCapacity">
    <double>20.0</double>
   </void>
@@ -297,7 +297,7 @@
    <double>75.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.VacuumCleaner">
+ <object class="main.java.by.bsuir.wt.lab2.entity.VacuumCleaner">
   <void property="bagType">
    <string>A2</string>
   </void>
@@ -323,7 +323,7 @@
    <string>all-in-one</string>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.VacuumCleaner">
+ <object class="main.java.by.bsuir.wt.lab2.entity.VacuumCleaner">
   <void property="bagType">
    <string>AA-89</string>
   </void>
@@ -349,7 +349,7 @@
    <string>all-in-one</string>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.VacuumCleaner">
+ <object class="main.java.by.bsuir.wt.lab2.entity.VacuumCleaner">
   <void property="bagType">
    <string>XX00</string>
   </void>
@@ -375,7 +375,7 @@
    <string>all-in-one</string>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.TabletPC">
+ <object class="main.java.by.bsuir.wt.lab2.entity.TabletPC">
   <void property="batteryCapacity">
    <double>3.0</double>
   </void>
@@ -401,7 +401,7 @@
    <double>1175.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.TabletPC">
+ <object class="main.java.by.bsuir.wt.lab2.entity.TabletPC">
   <void property="batteryCapacity">
    <double>4.0</double>
   </void>
@@ -427,7 +427,7 @@
    <double>699.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.TabletPC">
+ <object class="main.java.by.bsuir.wt.lab2.entity.TabletPC">
   <void property="batteryCapacity">
    <double>5.0</double>
   </void>
@@ -453,7 +453,7 @@
    <double>2350.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Speakers">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Speakers">
   <void property="cordLength">
    <int>2</int>
   </void>
@@ -476,7 +476,7 @@
    <double>1088.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Speakers">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Speakers">
   <void property="cordLength">
    <int>3</int>
   </void>
@@ -499,7 +499,7 @@
    <double>669.0</double>
   </void>
  </object>
- <object class="main.java.by.bsuir.WT.lab2.entity.Speakers">
+ <object class="main.java.by.bsuir.wt.lab2.entity.Speakers">
   <void property="cordLength">
    <int>4</int>
   </void>

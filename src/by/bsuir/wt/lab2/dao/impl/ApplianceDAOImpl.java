@@ -14,7 +14,7 @@ import java.util.Set;
 
 public class ApplianceDAOImpl implements ApplianceDAO{
 
-	private static final String path = "src/main/resources/appliances.xml";
+	private static final String path = "src/by/bsuir/wt/lab2/resources/appliances.xml";
 
 	@Override
 	public List<Appliance> find(Criteria criteria) {
